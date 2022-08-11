@@ -7,3 +7,52 @@
 *:focus {
     text-decoration: none;
 }
+
+body {
+    background-color: #ffc107;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.odin {
+    height: auto;
+    width: 625px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 48px;
+    height: auto;
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 30px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
