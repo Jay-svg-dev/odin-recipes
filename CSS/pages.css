@@ -13,7 +13,7 @@ body {
 }
 
 img {
-    margin: 48px 0;
+    margin: 48px auto;
     height: auto;
     width: 500px;
     border-radius: 12px;
@@ -42,7 +42,12 @@ h2 {
 }
 
 p {
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 48px;
     font-size: 20px;
+    text-align: center;
 }
 
 h3 { 
